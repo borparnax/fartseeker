@@ -1,18 +1,18 @@
 # FartSeeker Firmware 🖥️💨
 
-Bienvenido al repositorio oficial del **FartSeeker**, un custom firmware diseñado para el **Cardputer** de **M5 Stack**. Este proyecto convierte tu M5 en un sofisticado detector de metano, con funciones adicionales que incluyen datos curiosos sobre gases orgánicos y opciones de configuración.
+Bienvenido al repositorio oficial del **FartSeeker**, un custom firmware diseñado para el **Cardputer** de **M5 Stack**. Este proyecto convierte tu M5 en un sofisticado detector de metano.
 
 ## 🚧 Requisitos
 
 ### Hardware:
 
 - **M5 Stack Cardputer** 🖥️  
-- **Sensor de Metano M.4 de Flying-Fish** conectado al **ADC** de M5 Stack, que a su vez irá conectado a la cardputer por el **Grove port**  
+- **Sensor de Metano M.4 de Flying-Fish** conectado al **ADC** de M5 Stack, que a su vez irá conectado a la **M5 Stack Cardputer** por el **Grove port**  
 - **MicroSD** para almacenar los archivos de sonido y la mini enciclopedia **FlatusPedia**.
 
 ### Software:
 
-- **UIFLOW FIRMWARE BURNING TOOL**: La herramienta recomendada para flashear tu firmware de manera sencilla. Puedes descargarla [aquí](https://docs.m5stack.com/en/download).
+- **UIFLOW FIRMWARE BURNING TOOL**: La herramienta recomendada para flashear tu nuevo, fresco y, un tanto descarado custom firmware de manera sencilla. Puedes descargarla [aquí](https://docs.m5stack.com/en/download).
 
 ## 📂 Configuración
 
