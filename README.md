@@ -25,7 +25,7 @@ Bienvenido al repositorio oficial del **FartSeeker**, un custom firmware diseña
 El FartSeeker cuenta con un menú intuitivo para controlar todas sus funcionalidades:
 
 - **Activar FartSeeker**: Monitorea la concentración de metano en el aire en tiempo real.  
-- **Brown Newsletter (En Proceso)**: Pronto podrás configurar una lista de contactos para que sean notificados por correo cuando se detecte metano. 💻📧  
+- **Brown Newsletter (En Proceso)**: Pronto podrás configurar una lista de contactos para que sean notificados por correo cuando se detecte metano. 💨💻
 - **Ajuste Umbral PPPM**: Modifica la sensibilidad del sensor según las **Partículas de Pedo Por Millón (PPPM)** acorde con la sensibilidad del usuario.  
 - **Random FlatusPedia**: Datos curiosos y aleatorios sobre gases expulsados por seres vivos. 🤓  
 - **Batería Disponible**: Visualiza el porcentaje exacto restante de batería junto con una barra de estado. 🔋  
