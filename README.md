@@ -35,4 +35,4 @@ El FartSeeker cuenta con un menú intuitivo para controlar todas sus funcionalid
 
 Cualquier mejora o contribución es bienvenida. No dudes en abrir **issues** o hacer **pull requests**. Si tienes sugerencias sobre nuevas funciones para el **FartSeeker**, ¡nos encantaría escucharlas!
 
-Actualmente en la versión **v.07**, próximamente la versión **v1.0** estará disponible aquí :)
+Actualmente en la versión **v0.9**, próximamente la versión **v1.0** estará disponible aquí :)
