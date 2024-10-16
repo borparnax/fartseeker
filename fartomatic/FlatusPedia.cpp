@@ -6,7 +6,7 @@
 extern SoundPlayer soundPlayer;
 
 FlatusPedia::FlatusPedia() {
-    // Constructor vacío
+
 }
 
 String FlatusPedia::readRandomFact() {
