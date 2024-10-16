@@ -1,4 +1,3 @@
-// SOUNDPLAYER_H
 #ifndef SOUNDPLAYER_H
 #define SOUNDPLAYER_H
 
