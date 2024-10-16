@@ -1,4 +1,3 @@
-//fartomatic.ino
 #include <M5Cardputer.h>
 #include <M5GFX.h>
 #include <Wire.h>
