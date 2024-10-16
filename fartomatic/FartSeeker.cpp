@@ -1,4 +1,3 @@
-//FartSeeker.cpp
 #include "FartSeeker.h"
 #include "SoundPlayer.h"
 #include <M5Cardputer.h>
@@ -11,19 +10,19 @@
 //extern BrownNewsletterConfig brownConfig;
 // Definiciones y variables globales
 #define ADC_I2C_ADDRESS 0x48
-extern bool runningFartSeeker; // Asegúrate de declararla como extern en el .ino
+extern bool runningFartSeeker; // Ojo, luego declarar como extern en el .ino
 extern SoundPlayer soundPlayer;
-bool runningFartSeeker = false; // Define la variable aquí
+bool runningFartSeeker = false;
 
 void activateFartSeeker() {
     runningFartSeeker = true;
     M5Cardputer.Display.fillScreen(BLUE);
 
     while (runningFartSeeker) {
-        M5Cardputer.update(); // Update keyboard state
+        M5Cardputer.update();
         if (M5Cardputer.Keyboard.isKeyPressed('q')) {
             soundPlayer.play("/07pSostenido.wav");
-            runningFartSeeker = false; // Exit the loop
+            runningFartSeeker = false;
             break;
         }
 
@@ -31,11 +30,9 @@ void activateFartSeeker() {
         int pppm = convertADCToPPPM(adcValue);
         displayAlert(pppm > THRESHOLD_PPPM);
 
-        delay(1000); // Wait before the next reading
+        delay(1000);
     }
 }
-
-// Las demás funciones permanecen iguales
 
 void displayAlert(bool isGasDetected) {
   M5Cardputer.Display.fillRect(0, 20, 320, 40, BLACK);
@@ -63,6 +60,6 @@ int readADC() {
 }
 
 int convertADCToPPPM(int adcValue) {
-  // Esta función debe ser ajustada según la calibración específica de tu sensor
+  //ajusta segu'n el sensor M-Q4...
   return adcValue;
 }
