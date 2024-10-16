@@ -52,11 +52,11 @@ void playSound(const char* filename);
 
 void setup() {
     Serial.begin(115200); // Initialize Serial for debugging
-    M5.begin();           // Initialize M5Stack components
-    M5Cardputer.begin();  // Initialize M5Cardputer
+    M5.begin();
+    M5Cardputer.begin();
 
     Wire.begin();
-    SD.begin();           // Initialize SD card
+    SD.begin();
 
     pppmAdjuster.begin();
     pppmAdjuster.setThreshold(THRESHOLD_PPPM);
@@ -282,14 +282,14 @@ void about() {
     M5Cardputer.Display.setTextSize(1.9);
     M5Cardputer.Display.setCursor(3, 5);
     M5Cardputer.Display.setTextColor(GREEN);
-    M5Cardputer.Display.println("FART-O-MATIC DETECTOR"); // Muestra la temática en mayúsculas
+    M5Cardputer.Display.println("FART-O-MATIC DETECTOR");
     M5Cardputer.Display.setTextSize(1.4);
-    M5Cardputer.Display.setCursor(3, 27); // Ajusta según el tamaño del texto de la temática
+    M5Cardputer.Display.setCursor(3, 27); // Ajusta según el tamaño del texto
     M5Cardputer.Display.setTextColor(GREEN);
     M5Cardputer.Display.println("");
     M5Cardputer.Display.println("");
     M5Cardputer.Display.println("More info at...");
-    M5Cardputer.Display.println("https://github.com/theCubicleWizard"); // Muestra el hecho 
+    M5Cardputer.Display.println("https://github.com/theCubicleWizard");
 
 
    while (true) {
