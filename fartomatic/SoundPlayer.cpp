@@ -1,4 +1,3 @@
-//soundplayer.cpp
 #include "SoundPlayer.h"
 #include <esp_log.h>
 #include <SD.h>
@@ -6,7 +5,7 @@
 SoundPlayer::SoundPlayer() {}
 
 void SoundPlayer::begin() {
-  //  SD.begin();
+     SD.begin();
 }
 
 bool SoundPlayer::play(const char* filename) {
@@ -14,8 +13,7 @@ bool SoundPlayer::play(const char* filename) {
 }
 
 bool SoundPlayer::playSdWav(const char* filename) {
-    auto file = SD.open(filename); // Use SD.open()
-
+    auto file = SD.open(filename);
     if (!file) {
         Serial.println("Failed to open WAV file.");
         return false;
