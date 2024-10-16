@@ -1,4 +1,3 @@
-
 #include "PPPMAdjuster.h"
 #include <M5Unified.h>
 #include <M5Cardputer.h>
@@ -55,7 +54,7 @@ void PPPMAdjuster::update() {
 
 
 void PPPMAdjuster::displayInputBuffer() {
-    // Esta función asume que ya has limpiado el área de entrada con clearInputArea()
+    // Esta función asume que se ha limpiaddo el área de entrada con clearInputArea()
     M5Cardputer.Lcd.setCursor(0, 140);  // Ajusta según sea necesario
     M5Cardputer.Lcd.setTextSize(2);
     M5Cardputer.Lcd.print("Nuevo valor PPPM: " + inputBuffer);
