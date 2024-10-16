@@ -1,4 +1,3 @@
-// FartSeeker.h
 #ifndef FARTSEEKER_H
 #define FARTSEEKER_H
 
