@@ -1,5 +1,3 @@
-// brownNewsletterConfig.h
-
 #ifndef BROWN_NEWSLETTER_CONFIG_H
 #define BROWN_NEWSLETTER_CONFIG_H
 
@@ -10,7 +8,7 @@
 #include <M5Cardputer.h>
 #include <ESP_Mail_Client.h>
 
-// Define the WiFiNetwork struct
+// Define la WiFiNetwork struct
 struct WiFiNetwork {
     String ssid;
     String password;
@@ -56,4 +54,4 @@ private:
     SMTPSession smtp;
 };
 
-#endif // BROWN_NEWSLETTER_CONFIG_H
+#endif
