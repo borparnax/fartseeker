@@ -1,4 +1,3 @@
-//PPPMAdjuster.h
 #ifndef PPPMADJUSTER_H
 #define PPPMADJUSTER_H
 
@@ -22,8 +21,8 @@ private:
     void processInput();
     void displayCurrentThreshold();
     void clearInputArea();
-    void displayInputBuffer(); // Añade esta línea
+    void displayInputBuffer();
     bool adjustmentComplete;
 };
 
-#endif // PPPMADJUSTER_H
+#endif
