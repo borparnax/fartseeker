@@ -4,7 +4,7 @@ markdown
 Copiar código
 # FartSeeker Firmware 🖥️💨
 
-Bienvenido al repositorio oficial del FartSeeker, un custom firmware diseñado para el Cardputer de M5 Stack. Este proyecto convierte tu M5 en un sofisticado detector de metano.
+Bienvenido al repositorio oficial del FartSeeker, un custom firmware diseñado para el Cardputer de M5 Stack. Este proyecto convierte tu M5 Stack Cardputer en un sofisticado detector de metano.
 
 ## 🚧 Requisitos
 
@@ -45,3 +45,11 @@ El FartSeeker cuenta con un menú intuitivo para controlar todas sus funcionalid
 Cualquier mejora o contribución es bienvenida. No dudes en abrir issues o hacer pull requests. Si tienes sugerencias sobre nuevas funciones para el FartSeeker, ¡nos encantaría escucharlas!
 
 Actualmente en la versión v0.9, próximamente la versión v1.0 estará disponible [aquí](https://github.com/theCubicleWizard/FartSeeker).
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la **[Licencia Pública General GNU Versión 2 (GPLv2)](LICENSE)**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+¡Gracias por usar FartSeeker! 💨🖥️
