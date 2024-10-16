@@ -1,7 +1,3 @@
-Pensamiento sobre 5 segundos
-
-markdown
-Copiar código
 # FartSeeker Firmware 🖥️💨
 
 Bienvenido al repositorio oficial del FartSeeker, un custom firmware diseñado para el Cardputer de M5 Stack. Este proyecto convierte tu M5 Stack Cardputer en un sofisticado detector de metano.
