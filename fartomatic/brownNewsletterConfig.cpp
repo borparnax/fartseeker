@@ -1,5 +1,3 @@
-// brownNewsletterConfig.cpp
-
 #include "brownNewsletterConfig.h"
 
 BrownNewsletterConfig::BrownNewsletterConfig() : newsletterOn(false) {}
@@ -150,8 +148,6 @@ void BrownNewsletterConfig::showMenu() {
 void BrownNewsletterConfig::configureWiFi() {
     bool exit = false;
     while (!exit) {
-        // Código para mostrar el menú...
-
         char key = 0;
         while (true) {
             M5Cardputer.update();
@@ -262,7 +258,7 @@ void BrownNewsletterConfig::removeWiFiNetwork() {
                 key = 'q';
                 keyPressed = true;
             }
-            delay(100); // Pequeño retardo para evitar rebotes
+            delay(100);
         }
 
         if (key >= '1' && key <= '9') {
@@ -330,7 +326,7 @@ void BrownNewsletterConfig::configureBrownList() {
                 key = 'q';
                 keyPressed = true;
             }
-            delay(100); // Pequeño retardo para evitar rebotes
+            delay(100);
         }
 
         switch (key) {
@@ -410,7 +406,7 @@ void BrownNewsletterConfig::removeEmailFromBrownList() {
                 key = 'q';
                 keyPressed = true;
             }
-            delay(100); // Pequeño retardo para evitar rebotes
+            delay(100);
         }
 
         if (key >= '1' && key <= '9') {
@@ -482,7 +478,7 @@ void BrownNewsletterConfig::sendNotificationEmail() {
     session.server.host_name = "smtp.gmail.com";
     session.server.port = 465; // Puerto para SSL
     session.login.email = emailSender.c_str();
-    session.login.password = "tu_contraseña_de_aplicación"; // Usa la contraseña de aplicación generada
+    session.login.password = "contraseña_de_aplicación"; // Usa la contraseña de aplicación generada
     session.secure.startTLS = false; // No es necesario para SSL
 
     // Habilitar SSL
